@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(i){
+    font-family: 'Chakra Petch', sans-serif;
+   
+}
+body{
+    background-color:   rgb(96, 195, 248);
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61,0.2);
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    padding: 15px;
+    width: 70%;
+}
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color:  rgb(77, 148, 187);
+    border: none;
+    outline:none;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: rgb(10, 69, 101)
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button {
+    background-color: transparent;
+    color: rgb(140, 194, 223) ;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: gray;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: blue;
+}
+
+.word-example {
+    color: blue;
+    font-style: italic;
+    border-left: 5px solid rgb(96, 195, 248);
+    padding-left: 20px;
+    margin-top: 30px;
+    
+}
